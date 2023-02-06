@@ -1,0 +1,11 @@
+GENERAL
+ country of oocurence
+ Reference No
+
+Pateient
+ Patient contact consent
+
+Reporter
+ country
+ Consent to Contact Reporter
+ Consent to Contact Physician
