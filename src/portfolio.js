@@ -288,9 +288,9 @@ const experience = {
 
 // Projects Page
 const projectsHeader = {
-  title: "Projects",
+  title: "Projects (Click to view)",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects.",
+    "My projects make use of a vast variety of latest technology tools. My best experience is to create React Project, NodeJS Backend Projects and . Below are some of my projects.You can see deployed version or codes by clicking on respective project.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -308,6 +308,31 @@ const projects = {
   data: [
     {
       id: "0",
+      name: "Tech Store",
+      url: "https://techstoreaashu.netlify.app",
+      description:
+        "The project is an e-commerce website that allows users to browse and shop for electronic items such as  smartphones, laptops, watch, and other related accessories. The website provides a user-friendly interface that enables customers to easily search for products, view product details, and add products to their shopping carts.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "Js",
+          iconifyClass: "vscode-icons:file-type-js",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+      ],
+    },
+    {
+      id: "1",
       name: "Nasa-Mission-Control",
       url: "https://github.com/Aashu1Singh/nasa-mission-control",
       description:
@@ -336,7 +361,7 @@ const projects = {
       ],
     },
     {
-      id: "1",
+      id: "2",
       name: "News-App",
       url: "https://github.com/Aashu1Singh/newsForYou",
       description:
@@ -361,7 +386,7 @@ const projects = {
       ],
     },
     {
-      id: "2",
+      id: "3",
       name: "Text-Util",
       url: "https://github.com/Aashu1Singh/textUtill",
       description:
@@ -386,7 +411,7 @@ const projects = {
       ],
     },
     {
-      id: "3",
+      id: "4",
       name: "Bill-Karo",
       url: "https://github.com/Aashu1Singh/bill-Karo",
       description:

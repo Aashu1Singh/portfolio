@@ -20,6 +20,7 @@ function Projects(props) {
 
   return (
     <div className="projects-main">
+    
       <Header theme={theme} setTheme={props.setTheme} />
       <div className="basic-projects">
         <Fade bottom duration={2000} distance="40px">
@@ -33,6 +34,7 @@ function Projects(props) {
                 style={{ color: theme.text }}
               >
                 {projectsHeader.title}
+                
               </h1>
               <p
                 className="projects-header-detail-text subTitle"
