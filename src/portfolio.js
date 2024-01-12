@@ -16,7 +16,7 @@ const greeting = {
   full_name: "Aashu Singh",
   subTitle: "A Computer Science Student. Always learning 🔥.",
   resumeLink:
-    "https://docs.google.com/document/d/1lPu-zJ1Rn4SQyj875Lv8Yympc4IkjDrx8lxxc-xy1XY/edit?usp=sharing",
+    "https://drive.google.com/file/d/1dhPora5dcq30b_fOaL6D9fRBDNpahN0l/view?usp=drive_link",
   mail: "mailto:aashusingh1308@gmail.com",
 };
 
@@ -333,8 +333,8 @@ const projects = {
     },
     {
       id: "1",
-      name: "Nasa-Mission-Control",
-      url: "https://github.com/Aashu1Singh/nasa-mission-control",
+      name: "ISRO-Mission-Control",
+      url: "https://github.com/Aashu1Singh/ISRO-Mission-Control",
       description:
         "NASA Mission Control is a web-based project developed using ReactJS, JavaScript, ExpressJS, and NodeJS.It provides a user-friendly interface that allows users create launches and also to access information about NASA's missions, launches. This project uses external RESTful APIs to fetch data",
       languages: [
