@@ -16,7 +16,7 @@ const greeting = {
   full_name: "Aashu Singh",
   subTitle: "A Computer Science Student. Always learning 🔥.",
   resumeLink:
-    "https://drive.google.com/file/d/1dhPora5dcq30b_fOaL6D9fRBDNpahN0l/view?usp=drive_link",
+    "https://drive.google.com/file/d/1qd4k24I-uokIDqnNt0PkYNcjA-6B_cO7/view?usp=drive_link",
   mail: "mailto:aashusingh1308@gmail.com",
 };
 
@@ -196,6 +196,15 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "JAVA WITH DSA AND SYSTEM DESIGN",
+      subtitle: "Physics Wallah",
+      logo_path: "java.png",
+      certificate_link:
+        "https://pwskills.com/learn/certificate/6ba53a8b-32f3-4a37-8820-88c29cb86173/",
+      alt_name: "Java Course",
+      color_code: "#1d1d1d",
+    },
+    {
       title: "The Complete Web Development Bootcamp (MERN)",
       subtitle: "Udemy",
       logo_path: "mern.png",
@@ -273,13 +282,14 @@ const certifications = {
 const space = "                           ";
 const experience = {
   title: "Internships",
-  description: `iComply Lifescience Solutions, WFH (Jun 2022 to present) — 
+  description: `iComply Lifescience Solutions, WFH (Jun 2022 to Jun 2024) — 
   ${space}
     
-    ReactJS Developer with backend integration.  
-    Work closely with the Project Manager, Client, and Team Lead.
-    
-    We primarily used ReactJS for Frontend, and NodeJS for Backend APIs. 70% of my work was doing front-end development, 20% was doing back-end integration and helping others, and the remaining 10% was hosting and managing websites.
+ During my internship at iCOMPLY LIFESCIENCE SOLUTIONS from June 2022 to June 2024, I played a key role in developing user-friendly interfaces and integrating backend systems for a comprehensive Quality Management System (QMS) platform. This platform enabled real-time monitoring, data analysis, and intuitive dashboards for informed decision-making.
+
+I implemented automated workflows, risk management, and secure document control to streamline processes, ensure compliance, and mitigate risks. My efforts resulted in the delivery of a flexible, cloud-based QMS platform with customizable workflows, real-time data insights, and enhanced security, ensuring operational excellence and seamless remote access for quality management.
+
+Technologies and skills utilized in this role included ReactJS, Redux, JavaScript, ExpressJS, NodeJS, Mysql, REST API, JWT, and Bcrypt.
 
     
     `,
@@ -298,7 +308,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "aashu.jpg",
+    profile_image_path: "aashu.png",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },

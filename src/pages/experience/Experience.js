@@ -13,12 +13,12 @@ function Experience(props) {
     <div className="experience-main">
       <Header theme={theme} setTheme={props.setTheme} />
       <div className="basic-experience">
-        <Fade bottom duration={2000} distance="40px">
+        <Fade bottom duration={2000} distance="4px">
           <div className="experience-heading-div">
             <div className="experience-heading-img-div">
               <ExperienceImg theme={theme} />
             </div>
-            <div className="experience-heading-text-div">
+            <div className="experience-heading-text-div" style={{marginTop: "-69px"}}>
               <h1
                 className="experience-heading-text"
                 style={{ color: theme.text }}
